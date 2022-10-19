@@ -22,6 +22,7 @@ public:
 	String SubString(const int& _begin); //ok
 	String SubString(const int& _begin, const int& _end); //ok
 	String Replace(const char _oldChar, const char _newChar) const;  //ok
+	String Replace(const std::string _oldStr, const std::string _newStr) const;  
 	String Trim() const; //ok
 	int LastIndexOf(const char _char) const; //ok
 	int FirstIndexOf(const char _char) const; //ok

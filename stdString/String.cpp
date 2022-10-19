@@ -81,6 +81,11 @@ String String::Replace(const char _oldChar, const char _newChar) const
     return _str;
 }
 
+String String::Replace(const std::string _oldStr, const std::string _newStr) const
+{
+   
+}
+
 String String::Trim() const
 {
     int _length = length;
